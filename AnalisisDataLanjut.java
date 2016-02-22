@@ -38,16 +38,16 @@ public class AnalisisDataLanjut {
 /**
  * OUTPUT
  * 
- * ===== TOKO ABABIL ======
+ *====== TOKO ABABIL ======
 Nilai Maksimum = 200.0
 Nilai Minimum = 50.0
 Nilai range = 150.0
 Mean = 121.67
-Variansi = 34.58
+Variansi = 1787.5
 ====== TOKO BAPER ======
 Nilai Maksimum = 150.0
 Nilai Minimum = 100.0
 Nilai range = 50.0
 Mean = 130.75
-Variansi = 18.09
+Variansi = 382.2
  */

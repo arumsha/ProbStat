@@ -59,7 +59,7 @@ public class Statistics {
         // menjumlahkan nilai abs(xi - mean)
         double sigma = 0;
         for (int i = 0; i < input.length; i++) {
-            sigma += Math.abs(input[i]-mean(input));
+            sigma += Math.pow(Math.abs(input[i]-mean(input)),2);
         }        
         // menghitung variance
         double variance_ =0;
