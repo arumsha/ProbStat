@@ -89,8 +89,7 @@ public class AnalisisDataI {
             sigma_fi +=fi[i];
             sigma_fi++;
         }
-
         return meanKelompok = Double.parseDouble(
-                new DecimalFormat("##.##").format(sigma_fi_xi/sigma_fi));
+                new DecimalFormat("##.####").format((sigma_fi_xi-k_)/(sigma_fi-k_)));
     }
 }
