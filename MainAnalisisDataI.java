@@ -25,12 +25,12 @@ public class MainAnalisisDataI {
     static AnalisisDataI ad1 = new AnalisisDataI();
     static Statistics st = new Statistics();
     public static void main(String[] args) {
-        ad1.dataTunggalToKelompok(input_U);
-        System.out.println("Mean Data Tunggal = "+st.mean(input_U));
+        ad1.dataTunggalToKelompok(input_T);
+        System.out.println("Mean Data Tunggal = "+st.mean(input_T));
         double[] fr = ad1.getFrekuensiRelatif(input_T);
         System.out.println("Data berkelompok dan frekuensinya");
         for (int i = 0; i < fr.length; i++) {
-            System.out.println(ad1.ba[i]+" - "+ad1.ba[i]+" --> "+fr[i]);
+            System.out.println(ad1.bb[i]+" - "+ad1.ba[i]+" --> "+fr[i]);
         }
         System.out.println("Mean Data Berkelompok = "+ad1.getMeanDataKelompok());
         
@@ -40,8 +40,8 @@ public class MainAnalisisDataI {
 /**
  * OUTPUT
  * Nilai minimum = 38.0
-Nilai maximum = 98.0
-Range = 60.0
+Nilai maximum = 100.0
+Range = 62.0
 Banyak kelas = 7
 Panjang kelas = 9
 -----Data berkelompok----
@@ -52,14 +52,14 @@ Panjang kelas = 9
 74.0 - 82.0
 83.0 - 91.0
 92.0 - 100.0
-Mean Data Tunggal = 77.08
+Mean Data Tunggal = 76.66
 Data berkelompok dan frekuensinya
-46.0 - 46.0 --> 1.0
-55.0 - 55.0 --> 5.0
-64.0 - 64.0 --> 8.0
-73.0 - 73.0 --> 13.0
-82.0 - 82.0 --> 24.0
-91.0 - 91.0 --> 21.0
-100.0 - 100.0 --> 8.0
-Mean Data Berkelompok = 70.67
+38.0 - 46.0 --> 1.0
+47.0 - 55.0 --> 5.0
+56.0 - 64.0 --> 8.0
+65.0 - 73.0 --> 13.0
+74.0 - 82.0 --> 24.0
+83.0 - 91.0 --> 21.0
+92.0 - 100.0 --> 8.0
+Mean Data Berkelompok = 76.7625
  */
